@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+    <link rel="icon" type="image/png" href="./public/favicon.png">
+    <link rel="stylesheet" href="./public/styles/main.css"/>
+
+
+    <title>File Metadata Microservice</title>
+  </head>
+
+  <body>
+    <main>
+      <h1>File Metadata Microservice</h1>
+      <p>This Microservice returns name, filetype and size of given files.</p>
+      <p>Since this is a freeCodeCamp-Project of mine it is limited in functionality to the tasks demanded by the corresponding <a href="https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/file-metadata-microservice" title="freeCodeCamp tasks for the file metadata project" target="_blank">certification project</a>.</p>
+      
+      <form name="file-form" id="file-form" method="post" enctype="multipart/form-data" action="/api/fileanalyse">
+        <h2>Upload a file you want to be analysed</h2>
+        <input type="file" name="upfile">
+        <button name="send-file" id="send-file-btn" type="submit">Submit</button>
+      </form>
+    </main>
+</body>
+</html>
