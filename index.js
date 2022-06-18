@@ -6,7 +6,7 @@ const app     = express();
 const port    = 3000;
 
 import multer from 'multer';
-const upload = multer({ dest: '.public/uploads/' });
+const upload = multer({ dest: './public/uploads/' });
 
 /* Middleware */
 // import  logRequests from  './middlewares/logRequests.js';
